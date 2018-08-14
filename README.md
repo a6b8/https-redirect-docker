@@ -11,6 +11,7 @@ Redirect all http (80) Request to https (443) with a nginx server
 - [x] Nginx
 - [x] Docker
 - [x] Docker-Compose
+- [x] HA-Proxy Ready
 - [x] Rancher (Cattle) Ready
 
 ## Quickstart
