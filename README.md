@@ -1,6 +1,6 @@
 Docker Hub: [Pre-Build Image](https://hub.docker.com/r/a6b8/redirect-to-https-docker/)
 
-# Simple Redirect Docker Image
+# Redirect http to https (443 port) with nginx
 Redirect all http (80) Request to https (443) with a nginx server
 
 ***The Docker Image use Port:*** 80
