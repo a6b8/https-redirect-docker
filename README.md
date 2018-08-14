@@ -1,4 +1,5 @@
-docker-nginx-https-redirect
-===========================
+# Simple Redirect Docker Image
 
-A simple nginx container that redirects all http requests to https
+```
+docker 
+```
