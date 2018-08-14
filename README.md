@@ -15,16 +15,25 @@ Redirect all http (80) Request to https (443) with a nginx server
 - [x] Rancher (Cattle) Ready
 
 ## Quickstart
-Docker
+### Docker
 ```
-docker run a6b8/https-redirect-docker
+docker run -p 4241:80 a6b8/redirect-to-https-docker
 ```
 
-Docker-Compose
+### Docker-Compose
 ```
 version: '2'
 services:
   redirect-to-https:
     image: a6b8/redirect-to-https-docker
+    ports:
+      - "4241:80"
 ```
 
+### HA-Proxy Snippet
+```
+version: '2'
+services:
+  redirect-to-https:
+    image: a6b8/redirect-to-url-docker
+```
