@@ -16,6 +16,7 @@ Redirect all http (80) Request to https (443) with a nginx server
 
 ## Quickstart
 ### Docker
+Make Port 4241 Public (-p),
 ```
 docker run -p 4241:80 a6b8/redirect-to-https-docker
 ```
